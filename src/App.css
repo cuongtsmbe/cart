@@ -1,0 +1,183 @@
+button{
+  cursor: pointer;
+}
+.App {
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App header{
+  width:100%;
+  height:70px;
+  background-color: #efefef;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.App header .group-logo-cartCount{
+  width:400px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.App header .group-logo-cartCount .logoUse p{
+  font-size: 12px;
+  font-weight: bold;
+}
+.App header .group-logo-cartCount .countProduct{
+  width:13px;
+  height:13px;
+  position: relative;
+}
+.App header .group-logo-cartCount .countProduct span{
+  position: absolute;
+  background-color: pink;
+  color:white;
+  font-size: 10px;
+  font-weight: bold;
+  top:-5px;
+  left:80%;
+  width:15px;
+  justify-content: center;
+  display: flex;
+  border-radius:100%;
+}
+.App .body{
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .body .CartContainer{
+  width:600px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .body .CartContainer .title{
+  width:100%;
+  height:50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .body .CartContainer .ListItem{
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.App .body .CartContainer .total-money{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  border-top: 1px solid gray;
+  padding-top:10px;
+  margin-top:20px;
+}
+.App .body .CartContainer .total-money span{
+  font-weight: bold;
+  font-size: 11px;
+  margin:0px 50px;
+
+}
+.App .body .CartContainer .Clear{
+  margin-top:10px;
+}
+.App .body .CartContainer .Clear button{
+  border:1px solid pink;
+  font-size: 11px;
+  font-weight: bold;
+  color:red;
+  padding:4px 10px;
+
+}
+.App .body .CartContainer .Clear button:active{
+  color:gray;
+}
+.App .body .CartContainer .ListItem .Item{
+  width:90%;
+  height:80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.App .body .CartContainer .ListItem .Item .img-info{
+  display: flex;
+  flex-direction: row;
+}
+.App .body .CartContainer .ListItem .Item .img-info .image{
+  width:70px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .body .CartContainer .ListItem .Item .img-info .image img{
+  width:70px;
+  height: 70px;
+}
+.App .body .CartContainer .ListItem .Item .img-info .info_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.App .body .CartContainer .ListItem .Item .img-info .info_item button{
+  border:0.5px solid pink;
+  background-color: white;
+  color:pink;
+  border-radius: 5px;
+  font-size: 9px;
+  width:50px;
+}
+.App .body .CartContainer .ListItem .Item .img-info .info_item button:active{
+  border:0.5px solid gray;
+  color:whitesmoke;
+}
+.App .body .CartContainer .ListItem .Item .img-info .info_item span{
+  color:gray;
+  font-size: 11px;
+  font-weight: bold;
+}
+.App .body .CartContainer .ListItem .Item .count-button{
+  width:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App .body .CartContainer .ListItem .Item  .count-button button{
+  border:none;
+  color:blue;
+  background-color: #f4f4f5;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.App .body .CartContainer .ListItem .Item  .count-button button:active{
+  color:pink;
+}
+.App .body .CartContainer .ListItem .Item  .count-button span{
+  font-size: 12px;
+  margin:5px 0px;
+}
+.emptycart{
+  font-size: 12px;
+  font-weight: bold;
+  color:gray;
+}
